@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&family=Poppins:wght@100;300;400;500;700&display=swap');
+
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+  
+  /* 1. Navigation Bar */
+  #nav-bar {
+    height: 80px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+  
+  .logo {
+    font-size: 33px;
+    color: #fad105;
+    font-weight: 600;
+}
+  
+  .menu-links ul {
+    display: flex;
+    list-style: none;
+}
+  
+  .menu-links ul li {
+    margin: 0 5px;
+}
+  
+  .menu-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+  
+  .menu-links ul li a:hover,
+  .menu-links a.active {
+    background-color: #fad105;
+    color: #1b1b1b;
+}
+
+/* 2nd Box - Profile */
+#Profile {
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 600;
+    gap: 3rem;
+}
+
+.img-profile img {
+    width: 400px;
+    height: 500px;
+}
+
+.text-display {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.text-display .btn-more {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+.text-display a:hover{
+    background-color: white;
+    color: black;
+    border-color: rgb(255, 196, 0);
+    border-style: solid;
+}
